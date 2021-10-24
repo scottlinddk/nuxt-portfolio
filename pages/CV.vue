@@ -1,0 +1,35 @@
+<template>
+<main v-if="dataReady">
+  <SmallHero :small-hero="cvHero" />
+  <section class="my-5">
+  </section>
+  <JobsComponent />
+  <SliderComponent />
+</main>
+</template>
+
+<script>
+
+export default {
+  name: 'CV',  
+  data () {
+    return {
+      dataReady: false,
+      jobsObj: null,
+      cvHero: {},
+      api: process.env.CV,
+      errors: []
+    }
+  },
+  async mounted () {
+    try {
+      const response = await this.$axios.get(this.api)
+      this.jobsObj = await response.data[0]
+      this.cvHero = await this.jobsObj.acf
+      this.dataReady = true
+    } catch (e) {
+      this.errors.push(e)
+    }
+  }
+}
+</script>
