@@ -11,11 +11,7 @@
           </p>
         </div>
         <div class="flex items-center justify-center">
-          <NuxtLink :to="smallHero.cta_link"
-            class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-green-400 hover:bg-green-700 focus:shadow-outline focus:outline-none"
-          >
-          {{smallHero.cta}}
-          </NuxtLink>
+          <AppBtn :link="smallHero.cta_link" :text="smallHero.cta" />
         </div>
       </div>
     </div>

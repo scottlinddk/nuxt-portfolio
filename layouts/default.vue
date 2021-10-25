@@ -2,7 +2,7 @@
   <div
     v-if="dataReady"
     id="app"
-    class="bg-gradient-to-r from-green-50 to-blue-50"
+    class="bg-gradient-to-r from-green-50 to-blue-50 min-h-full"
   >
     <AppHeader :wp-obj="wpObj" />
     <Nuxt />

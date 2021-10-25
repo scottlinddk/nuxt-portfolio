@@ -40,7 +40,7 @@
             </li>
           </ul>
         </div>
-        <a class="inline-flex items-center justify-center h-12 my-6 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-green-400 hover:bg-green-700 focus:shadow-outline focus:outline-none" href="/cases">Se cases</a>
+            <AppBtn :link="'cv'" :text="'Se hvad jeg ellers kan'" />
       </div>
     </div>
   </section>
