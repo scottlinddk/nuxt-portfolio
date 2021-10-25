@@ -27,7 +27,7 @@
         </div>
         <div class="flex flex-col pb-6 sm:items-center sm:flex-row sm:pb-0">
           <div>
-            <h3 class="text-xl font-semibold sm:text-base">{{job.title.rendered}} - <span class="font-light italic">{{job.acf.job_title}} </span></h3>
+            <h3 class="text-sm md:text-base font-semibold">{{job.title.rendered}} - <span class="font-light italic">{{job.acf.job_title}} </span></h3>
             <p v-html="job.content.rendered" class="text-sm text-gray-700 pb-4">
             </p>
           </div>

@@ -1,6 +1,6 @@
 <template>
-  <section v-if="dataReady" class="text-gray-900" role="banner">
-    <div class="px-6 py-4 mx-auto max-w-screen-xl">
+  <section class="py-24" role="banner">
+    <div class="mx-auto max-w-screen-xl">
       <div class="mx-auto text-center">
         <h2
           class="
@@ -12,7 +12,6 @@
             sm:text-4xl
           "
         >
-          <!-- bg-clip-text bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 -->
           Lorem ipsum dolor sit amet consectetur.
         </h2>
 
@@ -26,29 +25,12 @@
         </div>
       </div>
     </div>
-    {{casesArr}}
   </section>
 </template>
 
 <script>
 export default {
-  name: "Contact",
-  props: {},
-  data() {
-    return {
-      casesArr: null,
-      api: process.env.CASES,
-    };
-  },
-  async mounted() {
-    try {
-      const response = await this.$axios.get(this.api);
-      this.casesArr = await response.data;
-      this.dataReady = true;
-    } catch (e) {
-      this.errors.push(e);
-    }
-  },
+  name: "Contact"
 };
 </script>
 

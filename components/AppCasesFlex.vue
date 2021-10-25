@@ -1,5 +1,5 @@
 <template>
-  <section v-if="dataReady">
+  <section id="cases" v-if="dataReady">
     <div class="flex md:flex-row flex-col justify-center items-center">
       <div class="mt-4 relative relative-20 mt-0 col-start-1">
         <div class="relative space-y-2 md:space-y-6">

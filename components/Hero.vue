@@ -19,6 +19,7 @@
               mb-6
               text-3xl
               font-bold
+              leading-8
               tracking-tight
               sm:text-4xl
               text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-700 to-green-800

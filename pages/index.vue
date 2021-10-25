@@ -3,7 +3,6 @@
       <Hero :wp-obj="wpObj.acf" />
       <ProfileCard :link="'mig'" :profile-image="profileImage"/>
       <RecentCases />
-      <LandingProjects :wp-obj="wpObj" />
       <SliderComponent />
       <Contact />
   </main>

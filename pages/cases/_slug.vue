@@ -7,6 +7,16 @@
       :article-heading="selectedProject.acf.first_heading"
       :article-section="selectedProject.acf.first_section"
     />
+    <CaseImages
+      :first-image="selectedProject.acf.case_images.first_image.sizes.large"
+      :second-image="selectedProject.acf.case_images.second_image.sizes.large"
+      :third-image="selectedProject.acf.case_images.third_image.sizes.large"
+    />
+    <CaseArticle
+      :article-label="selectedProject.acf.second_label"
+      :article-heading="selectedProject.acf.second_heading"
+      :article-section="selectedProject.acf.second_section"
+    />
   </main>
 </template>
 
