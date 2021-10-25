@@ -56,7 +56,6 @@ import icons from '@/assets/icons/icons'
 
 export default {
   name: "SliderComponent",
-  props: {},
   data() {
     return {
         icons

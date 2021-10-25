@@ -24,7 +24,7 @@
               text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-700 to-green-800
             "
           >
-            {{ heroObj.tagline }} <span>👨🏼‍💻</spaN>
+            {{ heroObj.tagline }} <span class="text-white">👨🏼‍💻</span>
           </h1>
           <p class="text-base text-gray-700 md:text-lg">
             {{ heroObj.description }}

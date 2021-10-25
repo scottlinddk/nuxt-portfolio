@@ -1,5 +1,5 @@
 <template>
-  <section
+  <section id="profil"
     class="max-w-screen-xl mx-auto px-8 sm:px-6 lg:px-8 relative py-26 lg:mt-20"
   >
     <h2

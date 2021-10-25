@@ -21,8 +21,7 @@
 <script>
 
 export default {
-  name: "JobsComponent",
-  components: {},
+  name: "SmallHero",
   props: {
     smallHero: {
       type: Object
