@@ -22,7 +22,7 @@
           </p>
           <hr class="mb-5 border-gray-300" />
         </article>
-        <article class="flex space-between flex-wrap p-6 overflow-hidden m-w5xl bg-gray-100 shadow-2xl">
+        <article class="flex space-between flex-wrap p-6 overflow-hidden rounded-lg m-w5xl bg-gray-100 shadow-2xl">
           <img
             class="object-cover w-full h-36 mb-6"
             :src="selectedProject.acf.image"

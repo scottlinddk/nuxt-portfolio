@@ -1,5 +1,5 @@
 <template>
-  <section class="relative w-full">
+  <section class="relative w-full mt-6">
     <!-- bg-gradient-to-r from-green-100 to-blue-100 -->
     <div
       class="
@@ -13,7 +13,12 @@
     >
       <div class="flex flex-col w-full items-center col-span-12">
         <div class="mb-2 mt-6">
-          <h3 class="font-bold text-2xl">Hvad har jeg erfaring med?</h3>
+          <h2 class="text-gray-900 text-center
+          mb-6
+          text-2xl
+          font-bold
+          tracking-tight
+          sm:text-4xl">Hvad har jeg erfaring med?</h2>
         </div>
         <p
           class="

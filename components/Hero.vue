@@ -1,5 +1,5 @@
 <template>
-  <section class="relative flex flex-col pt-16 pb-4 lg:pt-0 md:flex-row lg:pb-0">
+  <section class="relative flex flex-col pt-8 md:pt-16 pb-4 lg:pt-0 md:flex-row lg:pb-0">
     <div
       class="
         flex flex-col

@@ -4,17 +4,13 @@
   >
     <h2
       class="
+      text-gray-900
         text-center
         mb-6
         text-2xl
         font-bold
         tracking-tight
         sm:text-4xl
-        text-transparent
-        bg-clip-text bg-gradient-to-r
-        from-green-500
-        via-green-700
-        to-green-800
       "
     >
       Min profil
@@ -25,7 +21,7 @@
           relative
           mx-auto
           w-full
-          md:w-1/2
+          md:w-2/3
           block
           px-8
           py-6
@@ -57,7 +53,7 @@
           >Jeg søger praktik til januar 2022</span
         >
 
-        <div class="justify-between sm:flex">
+        <div class="justify-between mb-6 sm:flex">
           <div>
             <h3 class="text-xl font-bold text-gray-900">
               Multimediedesignstuderende med UX/UI baggrund
@@ -67,14 +63,11 @@
 
           <div class="flex-shrink-0 hidden ml-3 sm:block">
             <img
-              class="object-cover w-16 h-16 rounded-lg shadow-sm"
+              class="object-cover w-32 h-full rounded-lg shadow-sm"
               :src="profileImage"
               alt=""
             />
           </div>
-        </div>
-        <div class="mt-4 sm:pr-8">
-          <p class="text-sm text-gray-500 mb-6">Verdens fedeste beskrivelse.</p>
         </div>
      </NuxtLink>
     </article>

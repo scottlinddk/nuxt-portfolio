@@ -1,14 +1,11 @@
 <template>
   <main v-if="dataReady">
-    <section>
       <Hero :wp-obj="wpObj.acf" />
-      <!-- <Hero2 /> -->
       <ProfileCard :link="'mig'" :profile-image="profileImage"/>
       <RecentCases />
       <LandingProjects :wp-obj="wpObj" />
       <SliderComponent />
-      {{ wpObj }}
-    </section>
+      <Contact />
   </main>
 </template>
 
