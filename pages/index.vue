@@ -1,17 +1,16 @@
 <template>
   <main v-if="dataReady">
       <Hero :wp-obj="wpObj.acf" />
-      <ProfileCard :link="''" :profile-image="profileImage"/>
-      <!-- <RecentCases /> -->
+      <ProfileCard :link="'mig'" :profile-image="profileImage"/>
+      <RecentCases />
       <SliderComponent />
-      <!-- <Contact /> -->
+      <Contact />
   </main>
 </template>
 
 <script>
 export default {
   name: "Hjem",
-  layout: "temporary",
   data() {
     return {
       dataReady: false,
