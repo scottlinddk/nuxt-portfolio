@@ -12,14 +12,11 @@
             sm:text-4xl
           "
         >
-          Lorem ipsum dolor sit amet consectetur.
+          Contact
         </h2>
-
         <p class="max-w-xl mx-auto mt-6 text-lg">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-          necessitatibus dolorem soluta, recusandaefacere error.
+          Text
         </p>
-
         <div class="mt-8 sm:justify-center sm:flex">
           <AppBtn :link="'kontakt'" :text="'Kontakt mig for faen'" />
         </div>
