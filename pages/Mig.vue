@@ -2,7 +2,6 @@
   <main v-if="dataReady">
     <SmallHero :small-hero="migHero" />
     <section class="my-5">
-      CV YO
       {{ wpObj.title.rendered }}
     </section>
   </main>

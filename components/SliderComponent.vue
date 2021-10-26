@@ -45,7 +45,7 @@
             </li>
           </ul>
         </div>
-            <AppBtn :link="'cv'" :text="'Se hvad jeg ellers kan'" />
+            <!-- <AppBtn :link="'cv'" :text="'Se hvad jeg ellers kan'" /> -->
       </div>
     </div>
   </section>

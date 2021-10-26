@@ -1,4 +1,6 @@
 module.exports = {
+  // purge: ['./dist/index.html', './public/index.html', './src/**/*.{vue}'],
+  // purge: ['./index.html', './dist/index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   purge: [
     "./components/**/*.{vue,js}",
     "./layouts/**/*.vue",
@@ -9,11 +11,17 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      scale: {
+        "104": "1.04rem"
+      },
+      width: {
+        "100": "30rem"
+      },
       colors: {
         green: {
           350: "#2E5E4E",
           450: "#0D2327",
-          950: "#001E26",
+          950: "#001E26"
         },
         gray: {
           450: "#93A7AA"
@@ -41,4 +49,4 @@ module.exports = {
     extend: {}
   },
   plugins: [require("tailwindcss"), require("autoprefixer")]
-}
+};
