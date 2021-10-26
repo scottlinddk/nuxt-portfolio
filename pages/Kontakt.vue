@@ -2,8 +2,6 @@
 <main v-if="dataReady">
   <SmallHero :small-hero="contactHero" />
   <section class="my-5">
-    CONTACT YO
-  </section>
 </main>
 </template>
 
