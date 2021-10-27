@@ -45,7 +45,7 @@ export default {
   data() {
     return {
       dataReady: false,
-      jobsApi: process.env.JOBS,
+      jobsApi: 'wp/v2/jobs',
       jobsArr: [],
       errors: [],
     };

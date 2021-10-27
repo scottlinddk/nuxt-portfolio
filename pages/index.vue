@@ -16,8 +16,7 @@ export default {
       dataReady: false,
       wpObj: null,
       profileImage: null,
-      api: process.env.API_HOME,
-      casesAPI: process.env.API_HOME,
+      api: 'wp/v2/pages?slug=hjem',
       errors: null, 
     }
   },

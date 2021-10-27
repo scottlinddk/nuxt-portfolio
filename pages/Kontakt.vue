@@ -14,7 +14,7 @@ export default {
       dataReady: false,
       contactObj: {},
       contactHero: {},
-      api: process.env.CONTACT,
+      api: 'wp/v2/pages?slug=kontakt',
       errors: []
     }
   },

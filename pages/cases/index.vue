@@ -15,7 +15,7 @@ export default {
       dataReady: false,
       casesObj: {},
       casesHero: {},
-      casesAPI: process.env.CASES_PAGE,
+      casesAPI: 'wp/v2/pages?slug=cases',
       errors: [],
     };
   },

@@ -127,7 +127,7 @@ export default {
     return {
       dataReady: false,
       menu: {},
-      menuAPI: process.env.MENU,
+      menuAPI: 'menus/v1/menus/api-menu',
       errors: [],
       isMenuOpen: false,
     };

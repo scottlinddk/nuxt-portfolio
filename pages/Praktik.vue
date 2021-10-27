@@ -15,7 +15,7 @@ export default {
       dataReady: false,
       praktikObj: {},
       praktikHero: {},
-      api: process.env.INTERNSHIP,
+      api: 'wp/v2/pages?slug=praktik',
       errors: []
     }
   },

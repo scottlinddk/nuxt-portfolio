@@ -76,18 +76,16 @@ export default {
   },
   data() {
     return {
-      api: process.env.HOME,
+      api: 'wp/v2/pages?slug=hjem',
       heroObj: {},
       errors: [],
     };
   },
   async mounted() {
     try {
-      const response = await this.$axios.get(
-        "https://wp.scottlind.dk/wp-json/wp/v2/pages?slug=hjem"
-      );
+      const response = await this.$axios.get(this.api);
       this.heroObj = response.data[0].acf;
-      console.log(this.heroObj);
+      // console.log(this.heroObj);
       // console.log(this.$route.params.slug)
     } catch (e) {
       this.errors.push(e);

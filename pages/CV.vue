@@ -17,7 +17,7 @@ export default {
       dataReady: false,
       jobsObj: null,
       cvHero: {},
-      api: process.env.CV,
+      api: 'wp/v2/pages?slug=cv',
       errors: []
     }
   },

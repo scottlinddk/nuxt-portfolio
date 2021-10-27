@@ -27,7 +27,7 @@ export default {
     return {
       dataReady: false,
       cases: [],
-      casesAPI: process.env.CASES,
+      casesAPI: 'wp/v2/cases/',
       errors: [],
     };
   },

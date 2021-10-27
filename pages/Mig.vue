@@ -15,7 +15,7 @@ export default {
       dataReady: false,
       wpObj: null,
       migHero: null,
-      api: process.env.MIG,
+      api: 'wp/v2/pages?slug=mig',
       errors: [],
     };
   },

@@ -56,7 +56,7 @@ export default {
       dataReady: false,
       recentCases: null,
       casesArr: null,
-      api: process.env.CASES,
+      api: 'wp/v2/cases/',
     };
   },
   async mounted() {

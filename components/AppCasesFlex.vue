@@ -108,7 +108,7 @@ export default {
       projects: null,
       highlightedProjects: null,
       projectsArr: [],
-      casesAPI: process.env.CASES,
+      casesAPI: 'wp/v2/cases/',
       errors: [],
     };
   },
