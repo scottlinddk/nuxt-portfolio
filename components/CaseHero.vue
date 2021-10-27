@@ -73,27 +73,7 @@ export default {
     selectedProject: {
       type: Object,
     },
-  },
-  // data() {
-  //   return {
-  //     dataReady: false,
-  //     api: process.env.JOBS,
-  //     cvObj: {},
-  //   };
-  // },
-  // async mounted() {
-  //   try {
-  //     const response = await this.$axios.get(this.api);
-  //     this.jobsArr = await response.data;
-  //     console.log(this.jobsArr);
-  //     this.dataReady = true;
-  //   } catch (e) {
-  //     this.errors.push(e);
-  //   }
-  // },
+  }
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-</style>

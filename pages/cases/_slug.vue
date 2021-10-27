@@ -36,7 +36,6 @@ export default {
       const response = await this.$axios.get(this.casesAPI);
       this.cases = await response.data;
       this.dataReady = true;
-      console.log(this.cases);
     } catch (e) {
       this.errors.push(e);
     }

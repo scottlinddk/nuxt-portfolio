@@ -21,7 +21,7 @@
         focus:shadow-outline focus:outline-none
       "
       :to="'/' + link"
-      >{{text}}
+      >{{ text }}
     </NuxtLink>
   </div>
 </template>
@@ -30,11 +30,8 @@
 export default {
   name: "AppBtn",
   props: {
-          text: String,
-          link: String
+    text: String,
+    link: String,
   },
 };
 </script>
-
-<style>
-</style>

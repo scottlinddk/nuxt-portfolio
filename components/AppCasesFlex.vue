@@ -119,7 +119,6 @@ export default {
       this.highlightedProjects = this.projects.filter(
         (project) => project.acf.highlighted == true
       );
-      console.log(this.highlightedProjects);
       this.dataReady = true;
     } catch (e) {
       this.errors.push(e);
@@ -127,6 +126,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-</style>

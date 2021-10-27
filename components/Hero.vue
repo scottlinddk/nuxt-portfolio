@@ -85,8 +85,6 @@ export default {
     try {
       const response = await this.$axios.get(this.api);
       this.heroObj = response.data[0].acf;
-      // console.log(this.heroObj);
-      // console.log(this.$route.params.slug)
     } catch (e) {
       this.errors.push(e);
     }
@@ -94,7 +92,6 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
 
 </style>

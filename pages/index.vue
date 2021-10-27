@@ -25,7 +25,6 @@ export default {
       const response = await this.$axios.get(this.api)
       this.wpObj = await response.data[0]
       this.profileImage = await this.wpObj.acf.profile_image.url
-      console.log(this.wpObj)
       this.dataReady = true
     } catch (e) {
       this.errors.push(e);

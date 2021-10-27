@@ -24,7 +24,6 @@ export default {
       const response = await this.$axios.get(this.api);
       this.wpObj = await response.data[0];
       this.migHero = this.wpObj.acf;
-      console.log(this.wpObj);
       this.dataReady = true;
     } catch (e) {
       this.errors.push(e);
