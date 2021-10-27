@@ -44,7 +44,7 @@ export default {
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-
+    baseURL: 'https://wp.scottlind.dk'
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
