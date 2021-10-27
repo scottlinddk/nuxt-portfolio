@@ -1,4 +1,5 @@
 require("dotenv").config();
+const path = require('path')
 
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
@@ -43,7 +44,7 @@ export default {
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    baseURL: process.env.HOME
+
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
