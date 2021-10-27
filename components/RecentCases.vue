@@ -7,10 +7,10 @@
       <div class="grid grid-cols-1 lg:items-center">
         <div class="text-center lg:max-w-2xl mx-auto">
           <h2 class="mb-6 text-2xl font-bold tracking-tight sm:text-4xl">
-            Se hvad jeg for nyligt har haft gang
+            Se hvad jeg for nyligt har haft gang i
           </h2>
           <p class="mt-4 text-lg leading-6 text-gray-500 dark:text-gray-300">
-            Helt vanvittigt tekst yo
+            Her er de to seneste cases.
           </p>
         </div>
         <div class="mt-10 justify-center">
@@ -44,7 +44,7 @@
         </div>
       </div>
     </div>
-    <AppBtn :link="'cases'" :text="'Se cases'" />
+    <AppBtn :link="'cases'" :text="'Se flere cases'" />
   </section>
 </template>
 
