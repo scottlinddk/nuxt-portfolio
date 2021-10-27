@@ -12,10 +12,10 @@
             sm:text-4xl
           "
         >
-          Contact
+          Kontakt
         </h2>
         <p class="max-w-xl mx-auto mt-6 text-lg">
-          Text
+          Send mig en mail eller giv mig et kald.
         </p>
         <div class="mt-8 sm:justify-center sm:flex">
           <AppBtn :link="'kontakt'" :text="'Kontakt mig for faen'" />

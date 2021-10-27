@@ -15,7 +15,7 @@ export default {
   data () {
     return {
       dataReady: false,
-      jobsObj: null,
+      jobsObj: undefined,
       cvHero: {},
       api: 'wp/v2/pages?slug=cv',
       errors: []
