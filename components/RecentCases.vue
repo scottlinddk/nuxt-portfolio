@@ -59,7 +59,7 @@ export default {
       api: 'wp/v2/cases/',
     };
   },
-  async mounted() {
+  async created () {
     try {
       const response = await this.$axios.get(this.api);
       this.casesArr = await response.data;

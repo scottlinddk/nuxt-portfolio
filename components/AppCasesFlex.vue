@@ -112,7 +112,7 @@ export default {
       errors: [],
     };
   },
-  async mounted() {
+  async created () {
     try {
       const response = await this.$axios.get(this.casesAPI);
       this.projects = response.data;

@@ -81,7 +81,7 @@ export default {
       errors: [],
     };
   },
-  async mounted() {
+  async created () {
     try {
       const response = await this.$axios.get(this.api);
       this.heroObj = response.data[0].acf;

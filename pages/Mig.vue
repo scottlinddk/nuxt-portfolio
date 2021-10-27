@@ -19,7 +19,7 @@ export default {
       errors: [],
     };
   },
-  async mounted() {
+  async created () {
     try {
       const response = await this.$axios.get(this.api);
       this.wpObj = await response.data[0];

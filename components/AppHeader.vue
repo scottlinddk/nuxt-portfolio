@@ -1,7 +1,6 @@
 <template>
 <header v-if="dataReady" id="home">
   <div class="px-2 md:px-8 lg:px-16 py-6 mx-auto z-50">
-  <!-- bg-gradient-to-r from-green-50 to-blue-50 opacity-90 -->
     <nav class="relative flex items-center justify-between">
       <NuxtLink
         to="/"
@@ -126,13 +125,13 @@ export default {
   data() {
     return {
       dataReady: false,
-      menu: {},
+      menu: null,
       menuAPI: 'menus/v1/menus/api-menu',
       errors: [],
       isMenuOpen: false,
     };
   },
-    async mounted () {
+    async created () {
     try {
       const response = await this.$axios.get(this.menuAPI)
       this.menu = await response.data.items

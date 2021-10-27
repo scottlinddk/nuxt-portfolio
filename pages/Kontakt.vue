@@ -18,7 +18,7 @@ export default {
       errors: []
     }
   },
-  async mounted () {
+  async created () {
     try {
       const response = await this.$axios.get(this.api)
       this.contactObj = await response.data[0]
