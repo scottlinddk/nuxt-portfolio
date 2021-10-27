@@ -32,8 +32,6 @@ bower_components
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
 
-dist
-/dist
 
 # Dependency directories
 node_modules/
@@ -68,6 +66,9 @@ typings/
 
 # nuxt.js build output
 .nuxt
+dist
+/dist
+
 
 # vuepress build output
 .vuepress/dist
