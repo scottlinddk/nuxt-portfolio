@@ -134,9 +134,7 @@ export default {
   },
     async mounted () {
     try {
-      const response = await this.$axios.get(
-        'https://wp.scottlind.dk/wp-json/menus/v1/menus/api-menu'
-      )
+      const response = await this.$axios.get(this.menuAPI)
       this.menu = await response.data.items
       this.dataReady = true
     } catch (e) {
