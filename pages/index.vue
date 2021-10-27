@@ -23,7 +23,7 @@ export default {
   },
   async created() {
     try {
-      const response = await this.$axios.get(this.api)
+      const response = await this.$axios.get('https://wp.scottlind.dk/wp-json/wp/v2/pages?slug=hjem')
       this.wpObj = await response.data[0]
       this.profileImage = await this.wpObj.acf.profile_image.url
       console.log(this.wpObj)
