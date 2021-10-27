@@ -18,7 +18,7 @@ export default {
       profileImage: null,
       api: process.env.API_HOME,
       casesAPI: process.env.API_HOME,
-      errors: [],
+      errors: null,
     }
   },
   async created() {
