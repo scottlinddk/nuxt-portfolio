@@ -1,5 +1,5 @@
 <template>
-  <section
+  <section data-aos="fade-up"
     v-if="dataReady"
     class="max-w-screen-xl mx-auto px-6 sm:px-6 lg:px-8 relative py-26 mt-20"
   >

@@ -9,8 +9,11 @@
 </template>
 
 <script>
+import aosMixin from '~/mixins/aos'
+
 export default {
   name: "Hjem",
+  mixins: [aosMixin],
   data() {
     return {
       dataReady: false,
