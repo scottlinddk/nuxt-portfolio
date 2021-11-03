@@ -15,13 +15,13 @@
         </div>
         <div class="mt-10 justify-center">
           <div class="relative flex flex-row space-y-4 justify-center">
-            <CasesAppCase               
-            v-for="recentCase in recentCases"
+            <CasesAppCase
+              v-for="recentCase in recentCases"
               :key="recentCase.id"
-            :title="recentCase.title.rendered"
-            :slug="recentCase.slug"
-            :subheading="recentCase.acf.subheading"
-            :case-image="recentCase.acf.caseimage.sizes.medium"
+              :title="recentCase.title.rendered"
+              :slug="recentCase.slug"
+              :subheading="recentCase.acf.subheading"
+              :case-image="recentCase.acf.caseimage.sizes.medium"
             />
           </div>
         </div>
@@ -38,10 +38,10 @@ export default {
     return {
       dataReady: false,
       recentCases: null,
-      api: 'wp/v2/cases?per_page=2',
+      api: "wp/v2/cases?per_page=2",
     };
   },
-  async created () {
+  async created() {
     try {
       const response = await this.$axios.get(this.api);
       this.recentCases = await response.data;
