@@ -1,18 +1,18 @@
 <template>
   <main v-if="selectedProject && dataReady" class="my-5">
-    <CaseHero :selected-project="selectedProject" />
-    <CaseImageFull :selected-project="selectedProject" />
-    <CaseArticle
+    <CasesCaseHero :selected-project="selectedProject" />
+    <CasesCaseImageFull :selected-project="selectedProject" />
+    <CasesCaseArticle
       :article-label="selectedProject.acf.first_label"
       :article-heading="selectedProject.acf.first_heading"
       :article-section="selectedProject.acf.first_section"
     />
-    <CaseImages
+    <CasesCaseImages
       :first-image="selectedProject.acf.case_images.first_image.sizes.large"
       :second-image="selectedProject.acf.case_images.second_image.sizes.large"
       :third-image="selectedProject.acf.case_images.third_image.sizes.large"
     />
-    <CaseArticle
+    <CasesCaseArticle
       :article-label="selectedProject.acf.second_label"
       :article-heading="selectedProject.acf.second_heading"
       :article-section="selectedProject.acf.second_section"

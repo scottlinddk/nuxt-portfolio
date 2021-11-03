@@ -2,7 +2,7 @@
   <main v-if="dataReady">
     <SmallHero :small-hero="casesHero" />
     <section class="my-5">
-      <AppCases />
+      <CasesAppCases />
     </section>
   </main>
 </template>

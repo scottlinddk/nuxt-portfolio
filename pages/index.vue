@@ -2,7 +2,7 @@
   <main v-if="dataReady">
       <Hero :wp-obj="wpObj.acf" />
       <ProfileCard :link="'mig'" :profile-image="profileImage"/>
-      <RecentCases />
+      <CasesRecentCases />
       <SliderComponent />
       <Contact />
   </main>

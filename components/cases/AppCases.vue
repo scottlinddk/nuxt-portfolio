@@ -1,6 +1,6 @@
 <template>
 <article class="flex items-end w-2/3 mx-auto flex-wrap justify-center space-x-2 md:space-x-6">
-<AppCase v-for="project in highlightedProjects" :key="project.id" 
+<CasesAppCase v-for="project in highlightedProjects" :key="project.id" 
   :slug="project.slug"
   :title="project.title.rendered" 
   :subheading="project.acf.subheading"

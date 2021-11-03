@@ -14,32 +14,15 @@
           </p>
         </div>
         <div class="mt-10 justify-center">
-          <div class="relative flex flex-row space-y-4">
-            <div
-              v-for="recentCase in recentCases"
+          <div class="relative flex flex-row space-y-4 justify-center">
+            <CasesAppCase               
+            v-for="recentCase in recentCases"
               :key="recentCase.id"
-              class="flex justify-center items-center space-x-4"
-            >
-            <NuxtLink :to="'/cases/' + recentCase.slug">
-              <img
-                class="
-                mx-auto
-                  rounded-lg
-                  shadow-lg
-                  transition
-                  duration-200
-                  hover:shadow-2xl
-                  cursor-pointer
-                  h-full
-                  w-3/5
-                  md:w-3/5
-                "
-                width="360"
-                :src="recentCase.acf.caseimage.sizes.medium_large"
-                :alt="recentCase.title.rendered"
-              />
-            </NuxtLink>
-            </div>
+            :title="recentCase.title.rendered"
+            :slug="recentCase.slug"
+            :subheading="recentCase.acf.subheading"
+            :case-image="recentCase.acf.caseimage.sizes.medium"
+            />
           </div>
         </div>
       </div>
