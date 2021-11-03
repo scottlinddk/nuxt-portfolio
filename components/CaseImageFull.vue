@@ -1,6 +1,6 @@
 <template>
   <section class="w-screen">
-    <nuxt-img class="w-full" :src="selectedProject.acf.caseimage.sizes.large" />
+    <nuxt-img class="w-full rounded-3xl" :src="selectedProject.acf.caseimage.sizes.large" />
   </section>
 </template>
 

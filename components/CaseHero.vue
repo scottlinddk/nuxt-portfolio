@@ -28,14 +28,14 @@
           flex-wrap
           p-6
           overflow-hidden
-          rounded-lg
-          m-w5xl
+          rounded-2xl
+          
           bg-gray-100
           shadow-2xl
         "
       >
         <img
-          class="object-cover w-full h-36 mb-6"
+          class="object-cover w-full h-36 mb-6 rounded-2xl"
           :src="selectedProject.acf.caseimage.sizes.medium_large"
           :alt="selectedProject.acf.title"
         />

@@ -55,15 +55,13 @@ export default {
     return {
       dataReady: false,
       recentCases: null,
-      casesArr: null,
-      api: 'wp/v2/cases/',
+      api: 'wp/v2/cases?per_page=2',
     };
   },
   async created () {
     try {
       const response = await this.$axios.get(this.api);
-      this.casesArr = await response.data;
-      this.recentCases = this.casesArr.slice(0, 2);
+      this.recentCases = await response.data;
       this.dataReady = true;
     } catch (e) {
       this.errors.push(e);
