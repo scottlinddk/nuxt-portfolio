@@ -1,5 +1,7 @@
 <template>
-  <section data-aos="fade-up"
+  <section
+    data-aos="fade-up"
+    data-aos-duration="2000"
     v-if="dataReady"
     class="max-w-screen-xl mx-auto px-6 sm:px-6 lg:px-8 relative py-26 mt-20"
   >
