@@ -67,7 +67,7 @@ export default {
       this.$gsap.to(el, {
         opacity: 1,
         duration: 0.5,
-        ease: 'power2.inOut',
+        ease: 'power1.inOut',
         onComplete: done
       })
     },
@@ -76,7 +76,7 @@ export default {
       this.$gsap.to(el, {
         opacity: 0,
         duration: 0.5,
-        ease: 'power2.inOut',
+        ease: 'power1.inOut',
         onComplete: done
       })
     }

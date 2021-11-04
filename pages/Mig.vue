@@ -4,6 +4,7 @@
     <section class="my-5">
       {{ wpObj.title.rendered }}
     </section>
+    <Runs />
   </main>
 </template>
 
