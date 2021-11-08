@@ -1,5 +1,5 @@
 <template>
-  <section v-if="dataReady" id="runs">
+  <section v-if="dataReady">
     <h2
       class="
         text-gray-900 text-center
@@ -7,10 +7,10 @@
         text-2xl
         font-bold
         tracking-tight
-        sm:text-4xl
+        sm:text-3xl
       "
     >
-      Jeg kan gode lide at 🏃🏼
+      Jeg kan gode lide at løbe 🏃🏼
     </h2>
     <div class="mx-auto">
       <div class="max-w-prose mx-auto" v-html="lastRun.content.rendered"></div>

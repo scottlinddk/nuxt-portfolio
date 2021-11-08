@@ -1,7 +1,7 @@
 <template>
   <main v-if="dataReady">
-    <SmallHero :small-hero="migHero" />
-    <section class="my-5">
+    <SmallHero :small-hero="migHero" :current-route="$route.path"/>
+    <section id="content" class="my-5">
       {{ wpObj.title.rendered }}
     </section>
     <Runs />
@@ -10,7 +10,7 @@
 
 <script>
 export default {
-  name: "Mig",
+  name: "mig",
   data() {
     return {
       dataReady: false,

@@ -1,14 +1,14 @@
 <template>
 <main v-if="dataReady">
   <SmallHero :small-hero="contactHero" />
-  <section class="my-5">
+  <section id="content" class="my-5">
   </section>
 </main>
 </template>
 
 <script>
 export default {
-  name: 'Kontakt',  
+  name: 'kontakt',  
   data () {
     return {
       dataReady: false,

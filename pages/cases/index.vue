@@ -1,7 +1,7 @@
 <template>
   <main v-if="dataReady">
     <SmallHero :small-hero="casesHero" />
-    <section class="my-5">
+    <section id="content" class="my-5">
       <CasesAppCases />
     </section>
   </main>

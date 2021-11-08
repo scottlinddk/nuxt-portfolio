@@ -18,7 +18,7 @@
           text-2xl
           font-bold
           tracking-tight
-          sm:text-4xl">Hvad har jeg erfaring med?</h2>
+          sm:text-3xl">Hvad har jeg erfaring med?</h2>
         </div>
         <p
           class="

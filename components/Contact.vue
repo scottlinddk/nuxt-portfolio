@@ -9,7 +9,7 @@
             text-2xl
             font-bold
             tracking-tight
-            sm:text-4xl
+            sm:text-3xl
           "
         >
           Kontakt

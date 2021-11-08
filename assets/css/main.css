@@ -19,11 +19,14 @@ p, span {
     opacity: 0;
 }
 .distance, .duration, .perKM, .avgSpeed {
-  background: #34D399;
-  background: -webkit-repeating-radial-gradient(circle farthest-side at bottom right, #34D399 0%, #60A5FA 100%);
-  background: -moz-repeating-radial-gradient(circle farthest-side at bottom right, #34D399 0%, #60A5FA 100%);
-  background: repeating-radial-gradient(circle farthest-side at bottom right, #34D399 0%, #60A5FA 100%);
+  background: #047857;
+  background: -webkit-repeating-radial-gradient(circle farthest-side at bottom right, #047857 0%, #1D4ED8 100%);
+  background: -moz-repeating-radial-gradient(circle farthest-side at bottom right, #047857 0%, #1D4ED8 100%);
+  background: repeating-radial-gradient(circle farthest-side at bottom right, #047857 0%, #1D4ED8 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 900;
+}
+.nuxt-link-exact-active {
+  color: #059669;
 }

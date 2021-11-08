@@ -1,7 +1,7 @@
 <template>
 <main v-if="dataReady">
   <SmallHero :small-hero="praktikHero" />
-  <section class="my-5">
+  <section id="content" class="my-5">
     PRAKTIK
   </section>
 </main>
@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  name: 'Praktik', 
+  name: 'praktik', 
   data () {
     return {
       dataReady: false,
