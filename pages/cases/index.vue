@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  name: "Cases",
+  name: "cases",
   data() {
     return {
       dataReady: false,

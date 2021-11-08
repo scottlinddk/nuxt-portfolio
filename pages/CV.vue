@@ -11,7 +11,7 @@
 <script>
 
 export default {
-  name: 'CV',  
+  name: 'cv',  
   data () {
     return {
       dataReady: false,
