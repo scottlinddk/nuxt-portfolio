@@ -15,6 +15,7 @@
         <div class="max-w-xl mb-6">
           <h1
             class="
+              hero
               max-w-lg
               mb-6
               text-3xl
@@ -27,11 +28,11 @@
           >
             {{ heroObj.tagline }} <span class="text-white">👨🏼‍💻</span>
           </h1>
-          <p class="text-base text-gray-700 md:text-lg">
+          <p class="hero text-base text-gray-700 md:text-lg">
             {{ heroObj.description }}
           </p>
         </div>
-        <div class="flex flex-col items-center md:flex-row">
+        <div class="hero flex flex-col items-center md:flex-row">
           <GlowBtn :wp-obj="heroObj" />
         </div>
       </div>
@@ -67,6 +68,8 @@
 </template>
 
 <script>
+import gsap from 'gsap'
+
 export default {
   name: "Hero",
   props: {
@@ -88,6 +91,13 @@ export default {
     } catch (e) {
       this.errors.push(e);
     }
+    gsap.from('.hero', {
+      autoAlpha: 0,
+      y: 50,
+      ease: "power4",
+      duration: 2,
+      stagger: 0.2
+    })
   },
 };
 </script>
