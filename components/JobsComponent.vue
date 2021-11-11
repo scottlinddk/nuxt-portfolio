@@ -13,7 +13,7 @@
     "
   >
     <div class="grid max-w-2xl mx-auto">
-        <article class="flex" v-for="job in jobsArr" :key="job.id">
+      <article class="flex" v-for="job in jobsArr" :key="job.id">
         <div class="flex flex-col items-center mr-6">
           <div class="w-px h-20 bg-gray-300 sm:h-full"></div>
           <div class="w-48">
@@ -34,7 +34,6 @@
         </div>
         </article>
     </div>
-     {{jobsObj}}
   </section>
 </template>
 
@@ -58,6 +57,6 @@ export default {
     } catch (e) {
       this.errors.push(e);
     }
-  },
+  }
 }
 </script>

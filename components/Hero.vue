@@ -15,7 +15,7 @@
         <div class="max-w-xl mb-6">
           <h1
             class="
-              hero
+              stagger
               max-w-lg
               mb-6
               text-3xl
@@ -28,11 +28,11 @@
           >
             {{ heroObj.tagline }} <span class="text-white">👨🏼‍💻</span>
           </h1>
-          <p class="hero text-base text-gray-700 md:text-lg">
+          <p class="stagger text-base text-gray-700 md:text-lg">
             {{ heroObj.description }}
           </p>
         </div>
-        <div class="hero flex flex-col items-center md:flex-row">
+        <div class="stagger flex flex-col items-center md:flex-row">
           <GlowBtn :wp-obj="heroObj" />
         </div>
       </div>
@@ -91,12 +91,12 @@ export default {
     } catch (e) {
       this.errors.push(e);
     }
-    gsap.from('.hero', {
+    gsap.from('.stagger', {
       autoAlpha: 0,
       y: 50,
-      ease: "power4",
-      duration: 2,
-      stagger: 0.2
+      ease: "power4.out",
+      duration: 2.5,
+      stagger: 0.4
     })
   },
 };

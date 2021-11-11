@@ -9,7 +9,7 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
           </svg>
       </span>
-      <span class="text-green-200 pl-6 group-hover:text-green-50 transition duration-200">{{wpObj.cta}} &rarr;</span>
+      <span class="text-green-200 pl-6 group-hover:text-green-50 transition duration-200">{{wpObj.cta}}</span>
   </NuxtLink>
 </div>
 </template>
