@@ -36,22 +36,6 @@
         "
         :to="'/' + link"
       >
-        <span
-          class="
-            absolute
-            text-white text-center
-            mt-4
-            px-5
-            inset-x-0
-            bottom-0
-            h-6
-            bg-gradient-to-r
-            from-green-300
-            via-blue-500
-            to-purple-600
-          "
-          >Jeg søger praktik til januar 2022</span
-        >
 
         <div class="justify-between mb-6 sm:flex">
           <div>

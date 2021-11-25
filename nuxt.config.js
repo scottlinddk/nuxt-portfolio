@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "Scott Lind",
+    title: "Scott Lind - Frontend-udvikler",
     htmlAttrs: {
       lang: "da"
     },

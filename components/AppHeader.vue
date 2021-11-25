@@ -9,7 +9,7 @@
         class="inline-flex items-center"
       >
         <span
-          class="text-xl font-bold font-serif tracking-wide dark:text-white text-gray-800 uppercase"
+          class="text-xl font-bold tracking-wide dark:text-white text-gray-800 uppercase"
           >Scott Lind</span
         >
       </NuxtLink>
@@ -35,8 +35,8 @@
       </ul>
       <div class="lg:hidden">
         <button
-          aria-label="Open Menu"
-          title="Open Menu"
+          aria-label="Åbn Menu"
+          title="Åbn Menu"
           class="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-gray-50 focus:bg-gray-50"
           @click="isMenuOpen = true"
         >
@@ -66,7 +66,7 @@
                   class="inline-flex items-center"
                 >
                   <span
-                    class="dark:text-white text-xl font-bold font-serif tracking-wide text-gray-800 uppercase"
+                    class="dark:text-white text-xl font-bold tracking-wide text-gray-800 uppercase"
                     >Scott Lind</span
                   >
                 </NuxtLink>
