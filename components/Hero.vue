@@ -23,9 +23,9 @@
               leading-8
               tracking-tight
               sm:text-4xl
-              text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-700 to-green-800
             "
           >
+              <!-- text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-700 to-green-800 -->
             {{ heroObj.tagline }} <span class="text-white">👨🏼‍💻</span>
           </h1>
           <p class="stagger text-base text-gray-700 md:text-lg">
