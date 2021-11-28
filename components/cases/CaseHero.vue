@@ -53,11 +53,11 @@
           </div>
           <div class="inline-flex flex-col h-12">
             <strong>{{ selectedProject.acf.meta_info.headings.third }}</strong>
-            <span>{{ selectedProject.acf.meta_info.descriptions.third }}</span>
+            <span><a :href="selectedProject.acf.meta_info.descriptions.third" target="_blank" rel="noopener noreferrer">Se kode på Github</a></span>
           </div>
           <div class="inline-flex flex-col h-12">
             <strong>{{ selectedProject.acf.meta_info.headings.fourth }}</strong>
-            <span>{{ selectedProject.acf.meta_info.descriptions.fourth }}</span>
+            <span><a :href="selectedProject.acf.meta_info.descriptions.fourth" target="_blank" rel="noopener noreferrer">Se live</a></span>
           </div>
         </div>
       </article>
