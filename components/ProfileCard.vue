@@ -1,11 +1,11 @@
 <template>
-  <section id="profil"
+  <section
+    id="profil"
     class="max-w-screen-xl mx-auto px-8 sm:px-6 lg:px-8 relative py-26 lg:mt-20"
   >
     <h2
       class="
-      text-gray-900
-        text-center
+        text-gray-900 text-center
         mb-6
         text-2xl
         font-bold
@@ -36,13 +36,16 @@
         "
         :to="'/' + link"
       >
-
         <div class="justify-between mb-6 sm:flex">
           <div>
             <h3 class="text-xl font-bold text-gray-900">
               Multimediedesignstuderende med UX/UI baggrund
             </h3>
-            <p class="mt-1 text-xs font-medium text-gray-600">Scott Lind</p>
+            <p class="mt-1 font-medium text-gray-600 max-w-prose">
+              Multimediedesignstuderende som brænder for front end-udvikling,
+              UI, UX og forretning. Samtidig erfaren og resultatorienteret
+              sælger med mere end 5 år i salgsbranchen.
+            </p>
           </div>
 
           <div class="flex-shrink-0 hidden ml-3 sm:block">
@@ -53,7 +56,7 @@
             />
           </div>
         </div>
-     </NuxtLink>
+      </NuxtLink>
     </article>
   </section>
 </template>
@@ -63,7 +66,7 @@ export default {
   name: "ProfileCard",
   props: {
     link: String,
-    profileImage: String
-  }
+    profileImage: String,
+  },
 };
 </script>

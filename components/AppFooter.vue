@@ -45,9 +45,6 @@
     <p class="text-sm dark:text-white text-gray-600">
       © Copyright 2021 Scott Lind
     </p>
-    <p class="text-sm dark:text-white text-gray-600">
-      Made with Nuxt & Tailwind ❤️
-    </p>
   </div>
 </footer>
 </template>
