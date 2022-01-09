@@ -1,7 +1,7 @@
 <template>
-  <main v-if="dataReady">
-      <Hero :wp-obj="wpObj.acf" />
-      <ProfileCard :link="'mig'" :profile-image="profileImage"/>
+  <main class="scroll-snap" v-if="dataReady">
+      <Hero class="lg:h-screen" :wp-obj="wpObj.acf" />
+      <ProfileCard class="h-96" :link="'mig'" :profile-image="profileImage"/>
       <CasesRecentCases />
       <SliderComponent />
       <Contact />

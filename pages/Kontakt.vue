@@ -1,8 +1,7 @@
 <template>
   <main v-if="dataReady">
     <SmallHero :small-hero="contactHero" />
-    <section id="content" class="my-5">
-    </section>
+    <Content :wp-obj="contactObj"/>
   </main>
 </template>
 
@@ -12,8 +11,8 @@ export default {
   data() {
     return {
       dataReady: false,
-      contactObj: {},
-      contactHero: {},
+      contactObj: null,
+      contactHero: null,
       api: "wp/v2/pages?slug=kontakt",
       errors: [],
     };

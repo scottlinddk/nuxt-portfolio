@@ -53,12 +53,10 @@
         class="
           object-contain
           w-full
-          h-56
+          h-auto
           hidden
           md:block
           lg:rounded-none lg:shadow-none
-          sm:h-96
-          lg:h-full
         "
         :src="heroObj.image"
         alt="Billede af Scott"

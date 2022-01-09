@@ -36,3 +36,6 @@ p, span {
 /* .nuxt-link-active {
   color: #059669;
 } */
+.scroll-snap {
+  scroll-snap-type: y mandatory;
+}

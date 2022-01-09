@@ -1,10 +1,7 @@
 <template>
   <main v-if="dataReady">
     <SmallHero :small-hero="migHero" :current-route="$route.path"/>
-    <section id="content" class="my-5">
-      {{ wpObj.title.rendered }}
-      {{ wpObj.content.rendered }}
-    </section>
+    <Content :wp-obj="wpObj"/>
     <Runs />
     <SliderComponent />
   </main>

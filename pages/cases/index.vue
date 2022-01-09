@@ -1,9 +1,8 @@
 <template>
   <main v-if="dataReady">
     <SmallHero :small-hero="casesHero" />
-    <section id="content" class="my-5">
+      <Content :wp-obj="casesObj"/>
       <CasesAppCases />
-    </section>
   </main>
 </template>
 

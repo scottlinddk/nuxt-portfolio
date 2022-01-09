@@ -1,6 +1,5 @@
 <template>
 <footer class="px-2 md:px-8 lg:px-16 pt-12 mx-auto">
-  <!-- dark:bg-gray-600 bg-gradient-to-r from-green-50 to-blue-50 -->
   <div class="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
     <div class="sm:col-span-2">
       <router-link to="/" aria-label="Gå til hjem" title="Scott Lind" class="inline-flex items-center">
@@ -43,7 +42,7 @@
   </div>
   <div class="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
     <p class="text-sm dark:text-white text-gray-600">
-      © Copyright 2021 Scott Lind
+      © Copyright {{ thisYear }} Scott Lind
     </p>
   </div>
 </footer>
@@ -52,6 +51,17 @@
 <script>
 
 export default {
-  name: 'AppFooter'
+  name: 'AppFooter',
+  data() {
+    return {
+      thisYear: {}
+    };
+  },
+  mounted() {
+    const getThisYear = new Date().getFullYear();
+    this.thisYear = getThisYear;
+
+  }
+
 }
 </script>

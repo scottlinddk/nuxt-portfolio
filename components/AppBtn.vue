@@ -19,6 +19,7 @@
         bg-green-500
         hover:bg-green-400 hover:shadow-xl
         focus:shadow-outline focus:outline-none
+        hover:cursor-pointer
       "
       :to="'/' + link"
       >{{ text }}
