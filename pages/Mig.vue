@@ -1,8 +1,10 @@
 <template>
   <main v-if="dataReady">
-    <SmallHero :small-hero="migHero" :current-route="$route.path"/>
-    <Content :wp-obj="wpObj"/>
+    <SmallHero :small-hero="migHero" :current-route="$route.path" />
+    <Content :wp-obj="wpObj" />
     <SliderComponent />
+    <JobsComponent />
+
     <Runs />
   </main>
 </template>
@@ -15,11 +17,11 @@ export default {
       dataReady: false,
       wpObj: null,
       migHero: null,
-      api: 'wp/v2/pages?slug=mig',
+      api: "wp/v2/pages?slug=mig",
       errors: [],
     };
   },
-  async created () {
+  async created() {
     try {
       const response = await this.$axios.get(this.api);
       this.wpObj = await response.data[0];

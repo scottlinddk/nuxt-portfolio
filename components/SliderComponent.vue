@@ -1,5 +1,5 @@
 <template>
-  <section class="relative w-full mt-6">
+  <section class="relative w-full mt-6 mb-6 pb-6">
     <!-- bg-gradient-to-r from-green-100 to-blue-100 -->
     <div
       class="
@@ -14,7 +14,7 @@
       <div class="flex flex-col w-full items-center col-span-12">
         <div class="mb-2 mt-6">
           <h2 class="text-gray-900 text-center
-          mb-6
+          mb-4
           text-2xl
           font-bold
           tracking-tight
@@ -27,6 +27,7 @@
             md:text-body-lg
             2xl:text-body-xl
             mb-6
+            pb-6
             max-w-prose
           "
         >
@@ -40,12 +41,13 @@
                   class="h-12"
                   :alt="icon.title"
                   :title="icon.title"
+                  width="48px"
+                  height="48px"
                 />
                 <p class="text-sm mt-2">{{icon.title}}</p>
             </li>
           </ul>
         </div>
-            <!-- <AppBtn :link="'cv'" :text="'Se hvad jeg ellers kan'" /> -->
       </div>
     </div>
   </section>

@@ -1,5 +1,5 @@
 <template>
-  <section v-if="dataReady">
+  <section class="mt-6 mb-6 mt-6 pb-6" v-if="dataReady">
     <h2
       class="
         text-gray-900 text-center
