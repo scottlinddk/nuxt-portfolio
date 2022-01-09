@@ -16,7 +16,7 @@
       Min profil
     </h2>
     <article>
-      <NuxtLink
+      <div
         class="
           relative
           mx-auto
@@ -29,12 +29,11 @@
           bg-gray-50
           border border-gray-100
           rounded-lg
-          hover:shadow-lg
+          shadow-lg
           transition
-          hover:shadow-xl hover:boder-none
-          focus:shadow-outline focus:outline-none
+          shadow-xl hover:boder-none
+          shadow-outline focus:outline-none
         "
-        :to="'/' + link"
       >
         <div class="justify-between mb-6 sm:flex">
           <div>
@@ -56,8 +55,9 @@
             />
           </div>
         </div>
-      </NuxtLink>
+      </div>
     </article>
+    <AppBtn :link="'mig'" :text="'Find ud af hvem jeg er'" />
   </section>
 </template>
 

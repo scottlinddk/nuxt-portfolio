@@ -11,7 +11,7 @@
           </p>
         </div>
         <div class="flex items-center justify-center">
-          <AppBtn :link="`${$route.name}#content`" :text="smallHero.cta" />
+          <AppBtn :link="`${ctaLink}#content`" :text="smallHero.cta" />
         </div>
       </div>
     </div>
@@ -26,6 +26,15 @@ export default {
     smallHero: {
       type: Object
     }
+  },
+  data() {
+    return {
+      ctaLink: null
+    }
+  },
+  created() {
+    const lowerCased = this.$route.name.toLowerCase();
+    this.ctaLink = lowerCased;
   }
 };
 </script>

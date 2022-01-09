@@ -18,7 +18,7 @@
           Send mig en mail eller giv mig et kald.
         </p>
         <div class="mt-8 sm:justify-center sm:flex">
-          <AppBtn :link="'kontakt'" :text="'Kontakt mig for faen'" />
+          <AppBtn :link="'kontakt'" :text="'Gå til kontakt'" />
         </div>
       </div>
     </div>

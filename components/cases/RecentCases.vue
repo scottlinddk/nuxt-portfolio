@@ -11,8 +11,15 @@
           <h2 class="mb-6 text-2xl font-bold tracking-tight sm:text-4xl">
             Se hvad jeg for nyligt har haft gang i
           </h2>
-          <p class="mt-4 text-lg leading-6 text-gray-500 dark:text-gray-300">
-            Her er de to seneste cases.
+          <p class="
+          font-normal
+          text-center text-body-base
+          md:text-body-lg
+          2xl:text-body-xl
+          mb-6
+          max-w-prose
+          ">
+            Her er de to seneste cases, jeg har været en del af
           </p>
         </div>
         <div class="mt-10 justify-center">
