@@ -2,8 +2,8 @@
   <main v-if="dataReady">
     <SmallHero :small-hero="migHero" :current-route="$route.path"/>
     <Content :wp-obj="wpObj"/>
-    <Runs />
     <SliderComponent />
+    <Runs />
   </main>
 </template>
 

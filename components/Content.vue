@@ -1,5 +1,5 @@
 <template>
-  <section id="content" class="px-4 mx-auto max-w-7xl">
+  <section id="content" class="px-4 mb-6 mx-auto max-w-7xl">
     <h2
       class="
         text-gray-900 text-center

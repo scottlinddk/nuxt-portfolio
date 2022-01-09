@@ -13,13 +13,16 @@
   >
     <div class="grid gap-10 lg:grid-cols-2">
       <article class="lg:pr-10 self-center">
-        <h1 class="mb-4 text-4xl font-extrabold leading-none">
+        <span class="mb-6 text-s font-semibold tracking-wider text-gray-500 uppercase">Case</span>
+        <h1 class="mb-4 mt-2 text-4xl font-extrabold leading-none">
           {{ selectedProject.title.rendered }}
         </h1>
         <p class="mb-6 text-gray-900">
           {{ selectedProject.acf.subheading }}
         </p>
         <hr class="mb-5 border-gray-300" />
+        <p v-html="selectedProject.excerpt.rendered" class="mb-6 text-gray-900">
+        </p>
       </article>
       <article
         class="
