@@ -2,46 +2,21 @@
   <section class="flex items-center justify-center">
     <div class="flex flex-col items-end px-3 gap-4">
       <img
-        class="
-          flex-1
-          object-cover
-          mb-6
-          rounded
-          shadow-lg
-          w-36
-          md:w-46          
-          lg:w-64
-        "
+        class="flex-1 object-cover mb-6 rounded shadow-lg w-36 md:w-46 lg:w-64"
         :src="firstImage"
-        alt=""
+        alt="Casebillede"
       />
       <img
-        class="
-          flex-1
-          object-cover
-          w-56
-          md:w-80          
-          lg:w-96
-          rounded
-          shadow-lg
-        "
+        class="flex-1 object-cover w-56 md:w-80 lg:w-96 rounded shadow-lg"
         :src="thirdImage"
-        alt=""
+        alt="Casebillede"
       />
     </div>
     <div class="px-3 gap-4">
       <img
-        class="
-        flex-1
-          object-cover
-          w-56
-          md:w-80     
-          lg:w-96
-          rounded
-          shadow-lg
-        "
+        class="flex-1 object-cover w-56 md:w-80 lg:w-96 rounded shadow-lg"
         :src="secondImage"
-        alt=""
+        alt="Casebillede"
       />
     </div>
   </section>

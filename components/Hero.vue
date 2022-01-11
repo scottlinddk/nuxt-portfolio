@@ -37,6 +37,7 @@
         </div>
       </div>
     </div>
+
     <div
       class="
         inset-y-0
@@ -49,6 +50,7 @@
         xl:px-0
       "
     >
+    <div>
       <img
         class="
           object-contain
@@ -56,11 +58,13 @@
           h-auto
           hidden
           md:block
+          p-6
           lg:rounded-none lg:shadow-none
         "
         :src="heroObj.image"
         alt="Billede af Scott"
       />
+    </div>
     </div>
   </section>
 </template>
