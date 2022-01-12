@@ -3,9 +3,9 @@
     <div v-if="error.statusCode === 404" class="text-center h-screen">
         <h1 class="text-2xl my-6">Siden blev ikke fundet..</h1>
     <img
-        src="https://www.hyperui.dev/code/photos/confused-travolta.gif"
+        src="~static/confused-john-travolta.gif"
         alt="John Travolta confused"
-        class="mx-auto object-cover w-1/2 h-64 rounded-lg"
+        class="mx-auto object-cover w-1/2 rounded-lg"
     />
     <p class="mt-6">
         Prøv at gå til <NuxtLink class="transition-colors duration-200 hover:text-green-600" to="/">forsiden</NuxtLink>.
