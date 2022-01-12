@@ -15,6 +15,7 @@
   </article>
 </template>
 
+
 <script>
 export default {
   name: "CaseArticle",
